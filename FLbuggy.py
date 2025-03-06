@@ -7,8 +7,8 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 # Define sensitive information (API keys)
-DISCORD_BOT_TOKEN = "MTMyMjU4Nzg4NzgxMTY5MDU4OQ.GEn8Cd.VgJsLfkwhQNDHlfwmkgfmng-CubsbifGXFsNM8"
-GROQ_API_KEY = "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"
+DISCORD_BOT_TOKEN = "(API Here)"
+GROQ_API_KEY = "(API Here)"
 
 # Initialize the Groq client
 client = Groq(api_key=GROQ_API_KEY)
